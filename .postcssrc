@@ -1,0 +1,13 @@
+{
+  parser: 'sugarss',
+  plugins: {
+    'postcss-easy-import': {
+      extensions: ['.sss', '.css']
+    },
+    'autoprefixer': {},
+    'postcss-nested-ancestors': {},
+    'postcss-nested': {
+      'preserveEmpty': true
+    }
+  }
+}
